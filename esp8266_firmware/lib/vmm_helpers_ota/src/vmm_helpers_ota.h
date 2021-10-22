@@ -1,0 +1,26 @@
+#ifndef __VMM_OTA_H__
+#define __VMM_OTA_H__
+
+#include <ESP8266httpUpdate.h>
+#include <ArduinoOTA.h>
+
+////////////////////////////////////////////////////////////////////////////////////////
+// Defines
+////////////////////////////////////////////////////////////////////////////////////////
+
+#define OTA_HTTP_IP         "192.168.1.2"
+#define OTA_HTTP_PORT       80
+#define OTA_HTTP_URL        "/esp/update/vq_update_fw.php"
+#define OTA_HTTP_CURRENTFW  "VQ-1.10"
+
+//echo -n password | md5sum
+#define VQ_OTA_PWD_MD5HASH "5f4dcc3b5aa765d61d8327deb882cf99"
+
+////////////////////////////////////////////////////////////////////////////////////////
+// Function prototypes
+////////////////////////////////////////////////////////////////////////////////////////
+
+void setUp_OTA();              // OTA over WiFi
+void setUp_httpUpdate();       // "OTA" through webserver
+
+#endif
