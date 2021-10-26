@@ -3,9 +3,9 @@
 # Introduction
 
 On this page you will find the following different results and outputs from the [Life VAQUUMS](https://vaquums.eu) project for low-cost air quality sensors:
-* the firmware used to program the ESP8266 to prepare and send low-cost PM sensor data to our internal Influx database over local WiFi
-* an interactive viewer to analyse and compare Luftdaten/Sensor.Community PM-measurements to official ones in Belgium
-* the complete dataset of the VAQUUMS field campaign with all the low-cost sensor and official Flemish Environment Agency (VMM) measurements for PM, NOx and O3 spanning over 1 year of data
+* the [firmware](#esp8266-firmware) used to program the ESP8266 to prepare and send low-cost PM sensor data to our internal Influx database over local WiFi
+* an [interactive viewer](#interactive-viewer) to analyse and compare Luftdaten/Sensor.Community PM-measurements to official ones in Belgium
+* the [complete dataset](#field-campaign-dataset) of the VAQUUMS field campaign with all the low-cost sensor and official Flanders Environment Agency (VMM) measurements for PM, NOx and O3 spanning over 1 year of data
 
 # ESP8266 firmware
 
@@ -43,7 +43,7 @@ The following 19 sensors were tested in fivefold during a period of over one who
 | Sensormodel         | Pollutant  |
 |---------------------|------------|
 | Nova Fitness SDS011 | PM         |
-| PPD42NJ             | PM         |
+| Shinyei PPD42NJ     | PM         |
 | Shinyei PPD60PV-T2  | PM         |
 | Honeywell HPMA115S0 | PM         |
 | Plantower PMS7003   | PM         |
