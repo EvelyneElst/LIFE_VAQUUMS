@@ -34,7 +34,7 @@ You can try the viewer it out yourself by visiting this [link](https://ldp.ircel
 
 # Field campaign dataset
 
-The field campaign of the low-cost sensors was done at the official Flemish Environment Agency (VMM) monitoring station R801 in Borgerhout, Antwerp, Belgium (WGS84 coordinates: `51.2097 lat`, `4.4318 lon`). All of the low-cost sensors were placed in different shelters on the rooftop the monitorig station.
+The field campaign of the low-cost sensors was organised at the official Flanders Environment Agency (VMM) monitoring station R801 in Borgerhout, Antwerp, Belgium (WGS84 coordinates: `51.2097 lat`, `4.4318 lon`). All of the low-cost sensors were placed in different shelters on the rooftop the monitoring station.
 
 <img src="img/vaquums_fieldcampaign.png" title="Low-cost sensors shelter" alt="Low-cost sensors shelter"><br>
 
