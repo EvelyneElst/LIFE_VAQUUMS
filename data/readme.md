@@ -38,7 +38,7 @@ Each sensor model was given a unique letter code (UniqueLetter) prefixed by `VQ`
 
 > Due to technical difficulties the Alphasense OPC-N2 measurements were not usable and this dataset is not available. The BME280 dataset is currently under investigation and is likely to be published later.
 
-The sensor measurements were aggregated to 1-minute mean values. In the column prefixed by `N` the number of individual readings (i.e. polling or sampling rate) that make up the mean is shown, i.e. for sensors that send data every 1s the column N will have a value close to 60. Depending on the sensors model the polling frequency can be higher or lower that once every 1s.
+The sensor measurements were aggregated to 1-minute mean values. In the column prefixed by `N` the number of individual readings (i.e. polling or sampling rate) that make up the mean is shown, i.e. for sensors that send data every 1s the column N will have a value close to 60. Depending on the sensor model the polling frequency can be higher or lower that once every 1s.
 
 The 1-minute timestamps (`time`) are expressed as epochs (s precision) with the origin at 1970-01-01 00:00. They span the entire duration of the field campaign starting at 1550880000 (`2019-02-23 00:00 UTC`) and ending at 1585612800 (`2020-03-31 00:00 UTC`).
 
@@ -46,6 +46,10 @@ Note about the Envea CairClip sensors:
 * to save battery life the time resolution was set to 15 minutes
 * these sensors were not validated (cf. no `sc` codes), measurement are provided as-is
 * these sensors also measure relative humidity (RH in %) and temperature (T in °C)
+
+### *Calibration*
+
+The sensor data is not calibrated in any way. The data represents the raw readings and the concentrations for gaseous pollutants are expressed in ppb while for particulate matter (PM) they are in µg/m³-equivalents. One exception for PM is the Shinyei PPD60PV which reports in internal concentration units that need to be converted to µg/m³ using a suitable (calibration) function. More details on the function we used can be found in the reports mentioned under the (Further reading)[#further-reading] section below.
 
 ## Status codes
 
@@ -72,7 +76,7 @@ For the official measurements the Flanders Environment Agency (VMM) used the fol
 | Palas Fidas 200         | PM        |
 | Palas Fidas 200         | RH, T     |
 
-All of the measurements for the gaseous pollutants (NOx, O3) are expressed in ppb while for PM 
+All of the measurements for the gaseous pollutants (NOx, O3) are expressed in ppb while for particulate matter (PM) it is µg/m³.
 
 The relative humidity (RH) and to a lesser extent temperature (T) measurements are included in order to investigate possible correction algorithms.
 
