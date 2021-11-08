@@ -49,7 +49,7 @@ Note about the Envea CairClip sensors:
 
 ### *Calibration*
 
-The sensor data is not calibrated in any way. The data represents the raw readings and the concentrations for gaseous pollutants are expressed in ppb while for particulate matter (PM) they are in µg/m³-equivalents. One exception for PM is the Shinyei PPD60PV which reports in internal concentration units that need to be converted to µg/m³ using a suitable (calibration) function. More details on the function we used can be found in the reports mentioned under the (Further reading)[#further-reading] section below.
+The sensor data is not calibrated in any way. The data represents the raw readings and the concentrations for gaseous pollutants are expressed in ppb while for particulate matter (PM) they are in µg/m³-equivalents. One exception for PM is the Shinyei PPD60PV which reports in internal concentration units that need to be converted to µg/m³ using a suitable (calibration) function. More details on the function we used can be found in the reports mentioned under the [Further reading](#further-reading) section below.
 
 ## Status codes
 
