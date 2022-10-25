@@ -25,13 +25,6 @@ A demonstration video showing the different features of the interactive viewer c
 
 This viewer was developed by [Panodata](https://github.com/panodata) in Grafana and uses their [Luftdatenpumpe](https://github.com/earthobservations/luftdatenpumpe) as workhorse to retrieve Luftdaten/Sensor.Community data over the API and combine it with official air quality measurements from the Belgian endpoint hosted by [IRCEL](https://github.com/irceline/open_data).
 
-You can try the viewer it out yourself by visiting this [link](https://ldp.irceline.be) and supplying the following credentials to log in:
-
-```console
- username: vaquums
- password: vaquum$!
- ```
-
 # Field campaign dataset
 
 The field campaign of the low-cost sensors was organised at the official Flanders Environment Agency (VMM) monitoring station R801 in Borgerhout, Antwerp, Belgium (WGS84 coordinates: `51.2097 lat`, `4.4318 lon`). All of the low-cost sensors were placed in different shelters on the rooftop the monitoring station.
